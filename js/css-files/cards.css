@@ -1,0 +1,140 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: ease-in;
+    transition-duration: 300ms;
+    direction: rtl;
+}
+
+.nav{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin-left: 20px;
+    direction: ltr !important;
+}
+
+#fixed{
+    background-color: #374952;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+}
+
+li{
+ list-style: none;
+}
+
+#logo{
+    font-size: xx-large;
+    font-family: cursive;
+}
+#sideNav{
+    flex-direction: row;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+#center{
+    padding-top: 15vh;
+    background-color: blanchedalmond;
+    padding-bottom: 100vh;}
+
+#form{
+    border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px gray;
+    margin-left: 5vw;
+    margin-right: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: crimson;
+    direction: ltr !important;
+}
+
+input{
+    width: 15vh;
+    height: 7vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px gray;
+    padding: 5px;
+}
+
+button{
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px gray;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cards{
+    position: absolute;
+    top: 15vh;
+    left: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70vw;
+    background-color: blanchedalmond;
+}
+
+.card{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10%;
+    margin: 20px;
+    box-shadow: 1px 1px 5px gray;
+    width: 200px;
+    height: 170px;
+    background-color: crimson;
+}
+
+.insideTheCard{
+    transform: translateY(-25px);
+}
+
+.hide{
+    display: none;
+}
+
+.remove{
+    display: inline !important;
+    transform: translateY(-25px);
+    background-color: red !important;
+    padding: 0px !important;
+    width: -webkit-fill-available;
+}
+
+.red{
+    border-color: red;
+}
+.white{
+    border-color: white;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recursion page</title>
+    <link rel="stylesheet" href="../css-files/recursion.css">
+</head>
+<body>
+    <body>
+        <nav id="fixed">
+            <ul class="nav">
+                <li id="logo"><a href="../pages/home.html">Ori's website</a></li>
+                <div id="sideNav">
+                    <li><a href="../pages/cards.html">cards</a></li>
+                    <li><a href="../pages/arrays.html">arrays</a></li>
+                    <li><a href="../pages/algoritmics.html">algoritmics</a></li>
+                    <li><a href="#">recursion</a></li>                    
+                </div>
+            </ul>
+        </nav>
+        <div id="center">
+            <div class="form">
+                <div id="col">
+                    <input id="input" type="text" placeholder="enter number...">
+                </div>
+                <button id="fibo"> fibo </button>
+            </div>
+            <div id="val" class="form">
+                
+            </div>
+            <div id="sliders">
+                <h2>size</h2> 
+                <input type="range" name="size" id="size" min="50" max="170" value="50">
+                <h2>amount</h2> 
+                <input type="range" name="amount" id="amount" min="0" max="5" value="0" >
+            </div>
+            <div id="val" class="formForCanvas">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    <script defer type="text/javascript" src="../js/recursion.js"></script>
+</body>
+</html>
